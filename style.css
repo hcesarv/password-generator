@@ -73,6 +73,7 @@ body {
 @media (max-width: 600px) {
   .container {
     max-width: 100%;
+    width: 75%;
     flex-direction: column;
   }
 
@@ -82,5 +83,18 @@ body {
 
   .btn {
     font-size: .8rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    width: 75%;
+  }
+  .container h1{
+    font-size: 2rem;
+  }
+
+  .btn {
+    font-size: .6rem;
   }
 }
